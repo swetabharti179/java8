@@ -1,0 +1,4 @@
+how to clone a git repository?
+git clone <git url>
+example-
+git clone https://github.com/swetabharti179/java8.git
