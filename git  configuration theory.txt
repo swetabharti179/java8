@@ -2,3 +2,22 @@ how to clone a git repository?
 git clone <git url>
 example-
 git clone https://github.com/swetabharti179/java8.git
+
+how to configure git in your local system?
+step 1-open cmd
+step2-run below commands one by one 
+git config --global user.name "swetabharti179"
+git config --global user.email "swetabharti783@gmail.com"
+
+
+how to push your files to the repository(git hub)
+step1-go to at your code location
+step2-right click and select and select so more options ,then click on git gui
+step3-select the require files from unstaging area to staging area by clicking on file icon
+step4-provide commit message 
+step5-click on commit button 
+step6-click on push button
+step7-click on push button again
+note:-
+if you are committing first time then a pop up will appear then authorized yourself by clicking on browser option 
+
