@@ -1,12 +1,14 @@
 package javabasic;
 //method syntax note- other than [] all are mandatory 
 //[modifiers] <method return type> <method name>([arguments type]){}
-public  class MethodExample {
-	 int a;// abstract ,synchronized,native,strictfp
+public  class MethodExample{
+//private,protected,static,synchronized,strictfp,abstract,native,transient and volatile are not permitted
+	 int a;// abstract ,synchronized,native,strictfp are not permitted
 //type 1 method return type void and without arguments
 //type2 method return type other than void and without arguments 
 //	type3 method return type void and  with arguments 
 	 void m1(int a,int b) {
+//	transient and volatile are not permitted 
 		System.out.println(a);
 		System.out.println(b);
 	}
@@ -16,7 +18,7 @@ public  class MethodExample {
 		System.out.println(c);
 		System.out.println(t);
 	}
-	void m3( int a) {
+	 void m3( int a) {
 		System.out.println(a);
 	}
 	
