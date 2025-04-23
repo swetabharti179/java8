@@ -1,6 +1,6 @@
 package mishra;
 
 public class Rahul {
-	public string name="rahul";
+	public String name="rahul";
 
 }
