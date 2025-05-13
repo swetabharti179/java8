@@ -20,6 +20,7 @@ public class IncrementOperator {
 //		int e=10++;// increment or decrement operator applicable for variables only
 //		not for constant
 		final int f=10;// compile time constant - final
+//		f++; invalid because increment and decrement are only applicable for varaible not for constant
 		System.out.println(f);	
 		
 		
